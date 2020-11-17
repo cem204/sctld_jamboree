@@ -53,6 +53,7 @@ Desktop/
 
 ```{r Making Salmon Vectors Names ofav, include=FALSE}
 #Loading quantification data output from the slippery Salmon
+setwd("~/Desktop/SCTLD_analysis/ofav_salmon_quant//")
 ofavall <- list.files(path = "~/Desktop/SCTLD_analysis/ofav_salmon_quant//", full.names = F, pattern = "\\_salmon$")
 
 FILESofav <- file.path(ofavall, "quant.sf")
@@ -64,7 +65,7 @@ all(file.exists(FILESofav))
 
 ```{r Making Salmon Vectors Names mcav, include=FALSE}
 #Loading quantification data output from the slippery Salmon
-setwd("~/Desktop/SCTLD_analysis/mcav_salmon_quant/")
+setwd("~/Desktop/SCTLD_analysis/mcav_salmon_quant//")
 mcavall <- list.files(path = "~/Desktop/SCTLD_analysis/mcav_salmon_quant//", full.names = F, pattern = "\\_salmon$")
 
 FILESmcav <- file.path(mcavall, "quant.sf")
@@ -76,13 +77,13 @@ all(file.exists(FILESmcav))
 
 ```{r Reading in Salmon Files ofav, include=F}
 #Importing the count data using salmon quant.sf files and the text to gene file
-setwd("~/Desktop/SCTLD_analysis/ofav_salmon_quant//")
+setwd("~/Desktop/SCTLD_analysis/ofav_salmon_quant/")
 txi.salmon.count_ofav <- tximport(FILESofav, type = "salmon", txOut = TRUE )
 ```
 
 ```{r Reading in Salmon Files mcav, include=F}
 #Importing the count data using salmon quant.sf files and the text to gene file
-setwd("~/Desktop/SCTLD_analysis/mcav_salmon_quant//")
+setwd("~/Desktop/SCTLD_analysis/mcav_salmon_quant/")
 txi.salmon.count_mcav <- tximport(FILESmcav, type = "salmon", txOut = TRUE )
 ```
 
@@ -111,6 +112,7 @@ Now we are going to read in the metadata file and fix these for both species
 ```{r}
 meta <- read.csv(file = "~/Desktop/SCTLD_analysis/metadata.csv")
 str(meta)
+View(meta)
 ```
 
 Here, I filter the files I imported above and then filter them with the metadata file. This is needed as libraries failed and we only want the data for the samples that worked.  
@@ -127,14 +129,6 @@ nrow(mcav_meta)
 meta %>% filter(salmon_label %in% ofavall) -> ofav_meta
 length(ofavall)
 nrow(ofav_meta)
-```
-
-## Making DeSeq2 Object 
-
-```{r Making DeSeq object, include=FALSE}
-#making the dds model to use in deseq2
-dds_mcav = DESeqDataSetFromTximport(txi.salmon.count_mcav , mcav_meta, ~ Correct_treatment)
-dds_ofav = DESeqDataSetFromTximport(txi.salmon.count_ofav , ofav_meta, ~ Correct_treatment)
 ```
 
 
