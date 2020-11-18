@@ -24,7 +24,7 @@ echo "These are the .bam files to be quantified using featureCounts"
 echo $OFAVsamples
 module load subread
 featureCounts -t gene \
--g ID \
--a ${mcs}/genome_assemblies_genome_gff/ncbi-genomes-2020-11-18/GCF_002042975.1_ofav_dov_v1_genomic.gff \
+-g gene_id \
+-a ${mcs}/genome_assemblies_genome_gtf/ncbi-genomes-2020-11-18/GCF_002042975.1_ofav_dov_v1_genomic.gtf \
 -o ${prodir}/outputs/${exp}_ofav.counts \
 ${prodir}/outputs/*Aligned.sortedByCoord.out.bam
