@@ -1,0 +1,49 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v1.6.2
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 1 BAM file                                       ||
+||                           S Ofav_na_K79_na_D1control_na_Aligned.sorted ... ||
+||                                                                            ||
+||             Output file : SCTLD_ofav.counts                                ||
+||                 Summary : SCTLD_ofav.counts.summary                        ||
+||              Annotation : GCF_002042975.1_ofav_dov_v1_genomic.gff (GTF)    ||
+||      Dir for temp files : /scratch/projects/transcriptomics/ellie/proj ... ||
+||                                                                            ||
+||                 Threads : 1                                                ||
+||                   Level : meta-feature level                               ||
+||              Paired-end : no                                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file GCF_002042975.1_ofav_dov_v1_genomic.gff ...           ||
+||    Features : 29105                                                        ||
+||    Meta-features : 29105                                                   ||
+||    Chromosomes/contigs : 957                                               ||
+||                                                                            ||
+|| Process BAM file Ofav_na_K79_na_D1control_na_Aligned.sortedByCoord.out ... ||
+||    Single-end reads are included.                                          ||
+||    Assign reads to features...                                             ||
+||    Total reads : 36965189                                                  ||
+||    Successfully assigned reads : 3849602 (10.4%)                           ||
+||    Running time : 0.59 minutes                                             ||
+||                                                                            ||
+||                         Read assignment finished.                          ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/scratch/projects/trans  ||
+|| criptomics/ellie/projects/SCTLD/outputs/SCTLD_ofav.counts.summary"         ||
+||                                                                            ||
+\\===================== http://subread.sourceforge.net/ ======================//
+
