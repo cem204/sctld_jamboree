@@ -1,0 +1,79 @@
+[2020-11-07 15:03:47.227] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-11-07 15:03:47.227] [jointLog] [info] Usage of --useErrorModel implies use of range factorization. rangeFactorization bins is being set to 4
+[2020-11-07 15:03:47.230] [jointLog] [info] numQuantThreads = 4
+[2020-11-07 15:03:47.231] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-11-07 15:03:48.248] [fileLog] [info] quantification processed 0 fragments so far
+
+[2020-11-07 15:03:48.249] [fileLog] [info] quantification processed 79596 fragments so far
+
+[2020-11-07 15:03:48.025] [jointLog] [info] replaced 1471 non-ACGT nucleotides with random nucleotides
+[2020-11-07 15:03:48.612] [jointLog] [info] Thread saw mini-batch with a maximum of 7.55% zero probability fragments
+[2020-11-07 15:03:48.619] [jointLog] [info] Thread saw mini-batch with a maximum of 5.40% zero probability fragments
+[2020-11-07 15:03:48.619] [jointLog] [info] Thread saw mini-batch with a maximum of 5.50% zero probability fragments
+[2020-11-07 15:03:48.619] [jointLog] [info] Thread saw mini-batch with a maximum of 5.10% zero probability fragments
+[2020-11-07 15:03:48.619] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 79596
+# of uniquely mapped reads : 75896
+# ambiguously mapped reads : 3700
+
+
+
+[2020-11-07 15:03:48.625] [jointLog] [info] Computed 2391 rich equivalence classes for further processing
+[2020-11-07 15:03:48.625] [jointLog] [info] Counted 76333 total reads in the equivalence classes 
+[2020-11-07 15:03:48.628] [jointLog] [warning] Only 79596 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2020-11-07 15:03:48.628] [jointLog] [info] starting optimizer
+[2020-11-07 15:03:48.633] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-11-07 15:03:48.634] [jointLog] [info] iteration = 0 | max rel diff. = 6.65312
+[2020-11-07 15:03:48.636] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-11-07 15:03:49.818] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-11-07 15:03:49.818] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-11-07 15:03:51.040] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-11-07 15:03:51.056] [jointLog] [info] iteration = 100 | max rel diff. = 0.0714286
+[2020-11-07 15:03:51.073] [jointLog] [info] iteration = 200 | max rel diff. = 0.0138889
+[2020-11-07 15:03:51.090] [jointLog] [info] iteration = 300 | max rel diff. = 0.0138889
+[2020-11-07 15:03:51.100] [jointLog] [info] iteration = 361 | max rel diff. = 1.88351e-06
+[2020-11-07 15:03:51.103] [jointLog] [info] finished optimizer
+[2020-11-07 15:34:22.872] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-11-07 15:34:22.872] [jointLog] [info] Usage of --useErrorModel implies use of range factorization. rangeFactorization bins is being set to 4
+[2020-11-07 15:34:22.872] [jointLog] [info] numQuantThreads = 4
+[2020-11-07 15:34:23.520] [jointLog] [info] replaced 1471 non-ACGT nucleotides with random nucleotides
+[2020-11-07 15:34:23.743] [fileLog] [info] quantification processed 0 fragments so far
+
+[2020-11-07 15:34:23.743] [fileLog] [info] quantification processed 79596 fragments so far
+
+[2020-11-07 15:34:24.099] [jointLog] [info] Thread saw mini-batch with a maximum of 7.55% zero probability fragments
+[2020-11-07 15:34:24.105] [jointLog] [info] Thread saw mini-batch with a maximum of 5.00% zero probability fragments
+[2020-11-07 15:34:24.106] [jointLog] [info] Thread saw mini-batch with a maximum of 5.50% zero probability fragments
+[2020-11-07 15:34:24.106] [jointLog] [info] Thread saw mini-batch with a maximum of 5.10% zero probability fragments
+[2020-11-07 15:34:24.106] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 79596
+# of uniquely mapped reads : 75896
+# ambiguously mapped reads : 3700
+
+
+
+[2020-11-07 15:34:24.112] [jointLog] [info] Computed 2391 rich equivalence classes for further processing
+[2020-11-07 15:34:24.112] [jointLog] [info] Counted 76333 total reads in the equivalence classes 
+[2020-11-07 15:34:24.115] [jointLog] [warning] Only 79596 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2020-11-07 15:34:24.115] [jointLog] [info] starting optimizer
+[2020-11-07 15:34:24.121] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-11-07 15:34:24.121] [jointLog] [info] iteration = 0 | max rel diff. = 6.88897
+[2020-11-07 15:34:24.139] [jointLog] [info] iteration = 100 | max rel diff. = 0.0661173
+[2020-11-07 15:34:24.156] [jointLog] [info] iteration = 200 | max rel diff. = 0.0379699
+[2020-11-07 15:34:24.173] [jointLog] [info] iteration = 300 | max rel diff. = 0.0190433
+[2020-11-07 15:34:24.190] [jointLog] [info] iteration = 400 | max rel diff. = 0.0190985
+[2020-11-07 15:34:24.207] [jointLog] [info] iteration = 500 | max rel diff. = 0.0120324
+[2020-11-07 15:34:24.224] [jointLog] [info] iteration = 600 | max rel diff. = 0.0120533
+[2020-11-07 15:34:24.241] [jointLog] [info] iteration = 700 | max rel diff. = 0.0120596
+[2020-11-07 15:34:24.248] [jointLog] [info] iteration = 743 | max rel diff. = 0.00533908
+[2020-11-07 15:34:24.248] [jointLog] [info] finished optimizer

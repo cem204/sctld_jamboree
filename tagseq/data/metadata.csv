@@ -1,0 +1,90 @@
+﻿Working Label,Tube label,salmon_label,Project,Species,Date collected,Tank collected from,transmission_species,Disease_frag_genet,Exp_frag_genet,percent_disease_progress,Treatment,Status,Correct_treatment,Notes,Notes
+K1,23_T7_OOF12-Control_2/29/2020,Ofav_na_K1_na_Control_na_salmon,Smithsonian,Ofav,2/28/20,7,na,na,na,na,Control,control,control,,
+K2,30_T7_OOF4_3/2/2020,Ofav_na_K2_na_Exp_na_salmon,Smithsonian,Ofav,3/2/20,7,dlab,OOF4,na,15,Exp,exposed,diseased,,
+K3,32_T7_OOF4-Control_3/2/3020,Ofav_na_K3_na_Control_na_salmon,Smithsonian,Ofav,3/2/20,7,na,na,na,na,Control,control,control,,
+K4,33_T7_OOF5_3/2/2020,Ofav_na_K4_na_Exp_na_salmon,Smithsonian,Ofav,3/2/20,7,dlab,OOF5,na,50,Exp,exposed,diseased,,
+K5,35_T7_OOF5-Control_3/2/2020,Ofav_na_K5_na_Control_na_salmon,Smithsonian,Ofav,3/2/20,7,na,na,na,na,Control,control,control,,
+K6,39_T8_OF12_3/7/2020,Ofav_na_K6_na_Exp_na_salmon,Smithsonian,Ofav,3/7/20,8,na,OF12,na,15,Exp,exposed,diseased,,
+K7,45_T8_OOF1_3/10/2020,Ofav_na_K7_na_H_na_salmon,Smithsonian,Ofav,3/10/20,8,na,OOF1,na,na,H,exposed,healthy,DID NOT TRANSMIT,
+K8,46_T8_OOF2_3/10/2020,Ofav_na_K8_na_H_na_salmon,Smithsonian,Ofav,3/10/20,8,na,na,na,na,H,exposed,healthy,DID NOT TRANSMIT,
+K9,47_T8_OF3_3/10/2020,Ofav_na_K9_na_H_na_salmon,Smithsonian,Ofav,3/10/20,8,na,na,na,na,H,exposed,healthy,DID NOT TRANSMIT,
+K10,2_T8_DD1_2/22/2020,Mcav_na_K10_na_Diseased_na_salmon,Smithsonian,Mcav,2/22/20,8,na,na,na,,Diseased,exposed,diseased,,
+K11,4_T6_MC2_2/23/2020,Mcav_na_K11_na_exp_na_salmon,Smithsonian,Mcav,2/23/20,6,dlab,MC2,na,30,Experimental,exposed,diseased,,
+K12,6_T6_MC2-Control_2/23/2020,Mcav_na_K12_na_control_na_salmon,Smithsonian,Mcav,2/23/20,6,na,na,na,0,Control,control,control,,
+K13,16_T6_MC6_2/26/2020,Mcav_na_K13_na_exp_na_salmon,Smithsonian,Mcav,2/26/20,6,pstr,MC6,na,15,Experimental,exposed,diseased,,
+K14,18_T6_MC6-Control_2/26/2020,Mcav_na_K14_na_control_na_salmon,Smithsonian,Mcav,2/26/20,6,na,na,na,na,Control,control,control,,
+K15,27_T6_MC5_3/02/2020,Mcav_na_K15_na_exp_na_salmon,Smithsonian,Mcav,3/2/20,6,pstr,MC5,na,15,Experimental,exposed,diseased,,
+K16,29_T6_MC5-Control_3/2/2020,Mcav_na_K16_na_control_na_salmon,Smithsonian,Mcav,3/2/20,6,na,na,na,na,Control,control,control,,
+K17,Mcav_5/30/19_1_DCC_D1,Mcav_na_K17_na_D1_na_salmon,Mote,Mcav,5/30/19,1,na,DCC,B,25,D1,exposed,diseased,,
+K18,Mcav_5/31/19_1_DCC_D1,Mcav_na_K18_na_D1_na_salmon,Mote,Mcav,5/31/19,1,na,DCC,B,60,D1,exposed,diseased,,
+K19,Mcav_6/4/19_1_DCC_D1,Mcav_na_K19_na_D1_na_salmon,Mote,Mcav,6/4/19,1,na,DCC,B,90,D1,exposed,diseased,,
+K20,na,Mcav_na_K20_na_D1control_na_salmon,Mote,Mcav,5/30/19,2,na,HCC,B,control,D1control,control,control,,
+K21,na,Mcav_na_K21_na_D1control_na_salmon,Mote,Mcav,5/31/19,2,na,HCC,B,control,D1control,control,control,,
+K22,na,Mcav_na_K22_na_D1control_na_salmon,Mote,Mcav,6/4/19,2,na,HCC,B,control,D1control,control,control,,
+K23,na,Mcav_na_K23_na_D1_na_salmon,Mote,Mcav,5/31/19,1,na,DCC,D,30,D1,exposed,diseased,,
+K24,na,Mcav_na_K24_na_D1_na_salmon,Mote,Mcav,6/3/19,1,na,DCC,D,50,D1,exposed,diseased,,
+K25,na,Mcav_na_K25_na_D1_na_salmon,Mote,Mcav,6/6/19,1,na,DCC,D,95,D1,exposed,diseased,,
+K26,na,Mcav_na_K26_na_D1control_na_salmon,Mote,Mcav,5/31/19,2,na,HCC,D,control,D1control,control,control,,
+K27,na,Mcav_na_K27_na_D4control_na_salmon,Mote,Mcav,6/3/19,18,na,HCC,D,control,D4control,control,control,,
+K28,na,Mcav_na_K28_na_D1control_na_salmon,Mote,Mcav,6/6/19,2,na,HCC,D,control,D1control,control,control,,
+K29,na,Mcav_na_K29_na_D1_na_salmon,Mote,Mcav,5/28/19,1,na,DCC,E,25,D1,exposed,diseased,,
+K30,na,Mcav_na_K30_na_D1_na_salmon,Mote,Mcav,6/4/19,1,na,DCC,E,60,D1,exposed,diseased,,
+K31,na,Mcav_na_K31_na_D1_na_salmon,Mote,Mcav,6/4/19,1,na,DCC,E,90,D1,exposed,diseased,progressed to 90% over the course of the day,
+K32,na,Mcav_na_K32_na_D1_na_salmon,Mote,Mcav,5/6/19,4,na,DCA,E,15,D1,exposed,diseased,did not progress further,
+K33,na,Mcav_na_K33_na_D1control_na_salmon,Mote,Mcav,5/28/19,2,na,HCC,E,control,D1control,control,control,,
+K34,na,Mcav_na_K34_na_D1control_na_salmon,Mote,Mcav,6/4/19,2,na,HCC,E,control,D1control,control,control,,
+K35,na,Mcav_na_K35_na_D1control_na_salmon,Mote,Mcav,5/6/19,2,na,HCC,E,control,D1control,control,control,,
+K36,na,Mcav_na_K36_na_D1_na_salmon,Mote,Mcav,5/6/19,4,na,DCA,G,15,D1,exposed,diseased,,
+K37,na,Mcav_na_K37_na_D1_na_salmon,Mote,Mcav,5/15/19,4,na,DCA,G,50,D1,exposed,diseased,did not progress further than 50%,
+K38,na,Mcav_na_K38_na_D2control_na_salmon,Mote,Mcav,5/6/19,7,na,HCC,G,control,D2control,control,control,,
+K39,na,Mcav_na_K39_na_D2control_na_salmon,Mote,Mcav,5/15/19,7,na,HCC,G,control,D2control,control,control,,
+K40,na,Mcav_na_K40_na_D1_na_salmon,Mote,Mcav,6/5/19,6,na,DCB,A,25,D1,exposed,diseased,,
+K41,na,Mcav_na_K41_na_D1_na_salmon,Mote,Mcav,6/6/19,6,na,DCB,A,90,D1,exposed,diseased,lost most of its tissue overnight - scraped any remaining tissue,
+K42,na,Mcav_na_K42_na_D4control_na_salmon,Mote,Mcav,6/5/19,18,na,HCC,A,control,D4control,control,control,,
+K43,na,Mcav_na_K43_na_D3control_na_salmon,Mote,Mcav,6/6/19,13,na,HCC,A,control,D3control,control,control,,
+K44,na,Mcav_na_K44_na_D1_na_salmon,Mote,Mcav,6/3/19,6,na,DCB,D,25,D1,exposed,diseased,,
+K45,na,Mcav_na_K45_na_D1_na_salmon,Mote,Mcav,6/5/19,6,na,DCB,D,95,D1,exposed,diseased,lost most of its tissue overnight - scraped any remaining tissue,
+K46,na,Mcav_na_K46_na_D4control_na_salmon,Mote,Mcav,6/3/19,18,na,HCC,D,control,D4control,control,control,,
+K47,na,Mcav_na_K47_na_D4control_na_salmon,Mote,Mcav,6/5/19,18,na,HCC,D,control,D4control,control,control,,
+K48,na,Mcav_na_K48_na_D1_na_salmon,Mote,Mcav,4/28/19,6,na,DCB,E,25,D1,exposed,diseased,,
+K49,na,Mcav_na_K49_na_D1_na_salmon,Mote,Mcav,6/5/19,6,na,DCB,E,95,D1,exposed,diseased,lost most of its tissue overnight - scraped any remaining tissue,
+K50,na,Mcav_na_K50_na_D1control_na_salmon,Mote,Mcav,4/28/19,2,na,HCC,E,control,D1control,control,control,,
+K51,na,Mcav_na_K51_na_D4control_na_salmon,Mote,Mcav,6/5/19,18,na,HCC,E,control,D4control,control,control,,
+K52,na,Ofav_na_K52_na_D1_na_salmon,Mote,Ofav,7/30/19,2,na,DCD,D,60,D1,exposed,diseased,,X
+K53,na,Ofav_na_K53_na_D1_na_salmon,Mote,Ofav,7/31/19,2,na,DCD,D,75,D1,exposed,diseased,,X
+K54,na,Ofav_na_K54_na_D2control_na_salmon,Mote,Ofav,7/30/19,9,na,"HCC, MCC",D,control,D2control,control,control,,X
+K55,na,Ofav_na_K55_na_D4control_na_salmon,Mote,Ofav,7/31/19,18,na,"HCC, MCC",D,control,D4control,control,control,,X
+K56,na,Ofav_na_K56_na_D1_na_salmon,Mote,Ofav,8/1/19,2,na,DCD,F,25,D1,exposed,diseased,,X
+K57,na,Ofav_na_K57_na_D3control_na_salmon,Mote,Ofav,8/1/19,6,na,"HCC, MCC",F,control,D3control,control,control,,X
+K58,na,Ofav_na_K58_na_D1_na_salmon,Mote,Ofav,8/3/19,2,na,DCD,F,90,D1,exposed,diseased,progressed to 90% overnight,X
+K59,na,Ofav_na_K59_na_D2control_na_salmon,Mote,Ofav,8/3/19,9,na,"HCC, MCC",F,control,D2control,control,control,,X
+K60,na,Ofav_na_K60_na_D1_na_salmon,Mote,Ofav,8/5/19,4,na,DCD,F,25,D1,exposed,diseased,,X
+K61,na,Ofav_na_K61_na_D3control_na_salmon,Mote,Ofav,8/5/19,6,na,"HCC, MCC",F,control,D3control,control,control,,X
+K62,na,Ofav_na_K62_na_D1_na_salmon,Mote,Ofav,8/10/19,4,na,DCD,G,30,D1,exposed,diseased,,X
+K63,na,Ofav_na_K63_na_D1control_na_salmon,Mote,Ofav,8/10/19,16,na,"HCC, MCC",G,control,D1control,control,control,,X
+K64,na,Ofav_na_K64_na_D1_na_salmon,Mote,Ofav,8/11/19,4,na,DCD,B,30,D1,exposed,diseased,,X
+K65,na,Ofav_na_K65_na_D1_na_salmon,Mote,Ofav,8/11/19,4,na,DCD,F,45,D1,exposed,diseased,,X
+K66,na,Ofav_na_K66_na_D3control_na_salmon,Mote,Ofav,8/11/19,6,na,"HCC, MCC",B,control,D3control,control,control,,X
+K67,na,Ofav_na_K67_na_D3control_na_salmon,Mote,Ofav,8/11/19,6,na,"HCC, MCC",F,control,D3control,control,control,,X
+K68,na,Ofav_na_K68_na_D1_na_salmon,Mote,Ofav,8/12/19,4,na,DCD,F,70,D1,exposed,diseased,,X
+K69,na,Ofav_na_K69_na_D1_na_salmon,Mote,Ofav,8/12/19,4,na,DCD,G,75,D1,exposed,diseased,,X
+K70,na,Ofav_na_K70_na_D2control_na_salmon,Mote,Ofav,8/12/19,9,na,"HCC, MCC",F,control,D2control,control,control,,X
+K71,na,Ofav_na_K71_na_D1control_na_salmon,Mote,Ofav,8/12/19,16,na,"HCC, MCC",G,control,D1control,control,control,,X
+K72,na,Ofav_na_K72_na_D1_na_salmon,Mote,Ofav,8/13/19,4,na,DCD,B,80,D1,exposed,diseased,,X
+K73,na,Ofav_na_K73_na_D3control_na_salmon,Mote,Ofav,8/13/19,6,na,"HCC, MCC",B,control,D3control,control,control,,X
+K74,na,Ofav_na_K74_na_D1_na_salmon,Mote,Ofav,9/3/19,5,na,DCC,B,25,D1,exposed,diseased,,X
+K75,na,Ofav_na_K75_na_D3control_na_salmon,Mote,Ofav,9/3/19,6,na,"HCC, MCC",B,control,D3control,control,control,,X
+K76,na,Ofav_na_K76_na_D1_na_salmon,Mote,Ofav,9/5/19,5,na,DCC,B,50,D1,exposed,diseased,,X
+K77,na,Ofav_na_K77_na_D3control_na_salmon,Mote,Ofav,9/5/19,6,na,"HCC, MCC",B,control,D3control,control,control,,X
+K78,na,Ofav_na_K78_na_D1_na_salmon,Mote,Ofav,9/7/19,17,na,DCA,E,50,D1,exposed,diseased,,X
+K79,na,Ofav_na_K79_na_D1control_na_salmon,Mote,Ofav,9/7/19,16,na,"HCC, MCC",E,control,D1control,control,control,,X
+K80,na,Ofav_na_K80_na_D1_na_salmon,Mote,Ofav,9/8/19,17,na,DCA,E,95,D1,exposed,diseased,progressed significantly overnight,X
+K81,na,Ofav_na_K81_na_D3control_na_salmon,Mote,Ofav,9/8/19,6,na,"HCC, MCC",E,control,D3control,control,control,,X
+K82,na,Ofav_na_K82_na_D1_na_salmon,Mote,Ofav,9/9/19,5,na,DCC,B,75,D1,exposed,diseased,,X
+K83,na,Ofav_na_K83_na_D1control_na_salmon,Mote,Ofav,9/9/19,16,na,"HCC, MCC",E,control,D1control,control,control,no control B frags left to pair with - used a different genotype,X
+K84,na,Ofav_na_K84_na_D1_na_salmon,Mote,Ofav,9/10/19,11,na,DCB,D,20,D1,exposed,diseased,,X
+K85,na,Ofav_na_K85_na_D4control_na_salmon,Mote,Ofav,9/10/19,18,na,"HCC, MCC",D,control,D4control,control,control,,X
+K86,na,Ofav_na_K86_na_D1_na_salmon,Mote,Ofav,9/17/19,11,na,DCB,D,50,D1,exposed,diseased,,X
+K87,na,Ofav_na_K87_na_D1_na_salmon,Mote,Ofav,9/17/19,17,na,DCA,G,30,D1,exposed,diseased,,X
+K88,na,Ofav_na_K88_na_D2control_na_salmon,Mote,Ofav,9/17/19,9,na,"HCC, MCC",D,control,D2control,control,control,,X
+K89,na,Ofav_na_K89_na_D1control_na_salmon,Mote,Ofav,9/17/19,16,na,"HCC, MCC",E,control,D1control,control,control,no control G frags left to pair with - used a different genotype,X

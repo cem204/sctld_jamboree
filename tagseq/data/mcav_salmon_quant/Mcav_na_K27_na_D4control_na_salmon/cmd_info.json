@@ -1,0 +1,8 @@
+{
+    "salmon_version": "0.10.0",
+    "targets": "/nethome/bdy8/mcav_genome/mcav_gffread_for_salmon.fasta",
+    "libType": "SF",
+    "alignments": "/scratch/projects/transcriptomics/ben_young/SCTLD/host/mcav_align/Mcav_na_K27_na_D4control_na/Mcav_na_K27_na_D4control_na_Aligned.toTranscriptome.out.bam",
+    "output": "/scratch/projects/transcriptomics/ben_young/SCTLD/host/mcav_quant/Mcav_na_K27_na_D4control_na_salmon",
+    "auxDir": "aux_info"
+}

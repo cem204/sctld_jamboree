@@ -1,0 +1,137 @@
+[2020-11-07 15:03:58.873] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-11-07 15:03:58.873] [jointLog] [info] Usage of --useErrorModel implies use of range factorization. rangeFactorization bins is being set to 4
+[2020-11-07 15:03:58.878] [jointLog] [info] numQuantThreads = 4
+[2020-11-07 15:03:58.879] [jointLog] [warning] Fragment GC bias correction is currently *experimental* in single-end libraries.  Please use this option with caution.
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND5 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript id-ND5 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND1 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-CYTB appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND2 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND6 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ATP6 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND4 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-COX3 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-COX2 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND4L appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ND3 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-ATP8 appears in the reference but did not appear in the BAM
+[2020-11-07 15:03:59.318] [jointLog] [warning] Transcript gene-COX1 appears in the reference but did not appear in the BAM
+[2020-11-07 15:04:00.364] [jointLog] [info] replaced 2253 non-ACGT nucleotides with random nucleotides
+[2020-11-07 15:04:00.603] [fileLog] [info] quantification processed 0 fragments so far
+
+[2020-11-07 15:04:01.164] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2020-11-07 15:04:02.180] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2020-11-07 15:04:02.428] [jointLog] [info] 
+
+The alignment group queue pool has been exhausted.  1002120 extra fragments were allocated on the heap to saturate the pool.  No new fragments will be allocated
+
+
+[2020-11-07 15:04:03.064] [fileLog] [info] quantification processed 2326701 fragments so far
+
+[2020-11-07 15:04:19.295] [jointLog] [info] Thread saw mini-batch with a maximum of 5.40% zero probability fragments
+[2020-11-07 15:04:19.301] [jointLog] [info] Thread saw mini-batch with a maximum of 6.00% zero probability fragments
+[2020-11-07 15:04:19.303] [jointLog] [info] Thread saw mini-batch with a maximum of 5.30% zero probability fragments
+[2020-11-07 15:04:19.309] [jointLog] [info] Thread saw mini-batch with a maximum of 5.30% zero probability fragments
+[2020-11-07 15:04:19.309] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 2326701
+# of uniquely mapped reads : 1694323
+# ambiguously mapped reads : 632378
+
+
+
+[2020-11-07 15:04:19.325] [jointLog] [info] Computed 21299 rich equivalence classes for further processing
+[2020-11-07 15:04:19.325] [jointLog] [info] Counted 2244967 total reads in the equivalence classes 
+[2020-11-07 15:04:19.328] [jointLog] [warning] Only 2326701 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2020-11-07 15:04:19.328] [jointLog] [info] starting optimizer
+[2020-11-07 15:04:19.339] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-11-07 15:04:19.340] [jointLog] [info] iteration = 0 | max rel diff. = 99.8339
+[2020-11-07 15:04:19.347] [jointLog] [info] iteration 11, adjusting effective lengths to account for biases
+[2020-11-07 15:04:32.076] [jointLog] [info] Computed expected counts (for bias correction)
+[2020-11-07 15:04:32.076] [jointLog] [info] processed bias for 0.0% of the transcripts
+[2020-11-07 15:04:34.151] [jointLog] [info] processed bias for 10.0% of the transcripts
+[2020-11-07 15:04:36.228] [jointLog] [info] processed bias for 20.0% of the transcripts
+[2020-11-07 15:04:38.338] [jointLog] [info] processed bias for 30.0% of the transcripts
+[2020-11-07 15:04:40.438] [jointLog] [info] processed bias for 40.0% of the transcripts
+[2020-11-07 15:04:42.568] [jointLog] [info] processed bias for 50.0% of the transcripts
+[2020-11-07 15:04:44.684] [jointLog] [info] processed bias for 60.0% of the transcripts
+[2020-11-07 15:04:45.092] [jointLog] [info] processed bias for 100.0% of the transcripts
+[2020-11-07 15:04:45.152] [jointLog] [info] iteration = 100 | max rel diff. = 0.151743
+[2020-11-07 15:04:45.216] [jointLog] [info] iteration = 200 | max rel diff. = 0.0611564
+[2020-11-07 15:04:45.280] [jointLog] [info] iteration = 300 | max rel diff. = 0.0402509
+[2020-11-07 15:04:45.343] [jointLog] [info] iteration = 400 | max rel diff. = 0.0247595
+[2020-11-07 15:04:45.406] [jointLog] [info] iteration = 500 | max rel diff. = 0.0223677
+[2020-11-07 15:04:45.470] [jointLog] [info] iteration = 600 | max rel diff. = 0.0171017
+[2020-11-07 15:04:45.534] [jointLog] [info] iteration = 700 | max rel diff. = 0.0163477
+[2020-11-07 15:04:45.598] [jointLog] [info] iteration = 800 | max rel diff. = 0.0125416
+[2020-11-07 15:04:45.665] [jointLog] [info] iteration = 900 | max rel diff. = 0.0111114
+[2020-11-07 15:04:45.728] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0104992
+[2020-11-07 15:04:45.759] [jointLog] [info] iteration = 1049 | max rel diff. = 0.00931147
+[2020-11-07 15:04:45.762] [jointLog] [info] finished optimizer
+[2020-11-07 15:34:30.019] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2020-11-07 15:34:30.019] [jointLog] [info] Usage of --useErrorModel implies use of range factorization. rangeFactorization bins is being set to 4
+[2020-11-07 15:34:30.020] [jointLog] [info] numQuantThreads = 4
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND5 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript id-ND5 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND1 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-CYTB appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND2 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND6 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ATP6 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND4 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-COX3 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-COX2 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND4L appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ND3 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-ATP8 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:30.459] [jointLog] [warning] Transcript gene-COX1 appears in the reference but did not appear in the BAM
+[2020-11-07 15:34:31.089] [jointLog] [info] replaced 2253 non-ACGT nucleotides with random nucleotides
+[2020-11-07 15:34:31.328] [fileLog] [info] quantification processed 0 fragments so far
+
+[2020-11-07 15:34:32.106] [fileLog] [info] quantification processed 1000000 fragments so far
+
+[2020-11-07 15:34:33.396] [fileLog] [info] quantification processed 2000000 fragments so far
+
+[2020-11-07 15:34:33.823] [fileLog] [info] quantification processed 2326701 fragments so far
+
+[2020-11-07 15:34:49.676] [jointLog] [info] Thread saw mini-batch with a maximum of 5.60% zero probability fragments
+[2020-11-07 15:34:49.690] [jointLog] [info] Thread saw mini-batch with a maximum of 5.10% zero probability fragments
+[2020-11-07 15:34:49.691] [jointLog] [info] Thread saw mini-batch with a maximum of 5.30% zero probability fragments
+[2020-11-07 15:34:49.693] [jointLog] [info] Thread saw mini-batch with a maximum of 6.00% zero probability fragments
+[2020-11-07 15:34:49.694] [jointLog] [info] 
+
+
+Completed first pass through the alignment file.
+Total # of mapped reads : 2326701
+# of uniquely mapped reads : 1694323
+# ambiguously mapped reads : 632378
+
+
+
+[2020-11-07 15:34:49.711] [jointLog] [info] Computed 21287 rich equivalence classes for further processing
+[2020-11-07 15:34:49.711] [jointLog] [info] Counted 2244967 total reads in the equivalence classes 
+[2020-11-07 15:34:49.715] [jointLog] [warning] Only 2326701 fragments were mapped, but the number of burn-in fragments was set to 5000000.
+The effective lengths have been computed using the observed mappings.
+
+[2020-11-07 15:34:49.718] [jointLog] [info] starting optimizer
+[2020-11-07 15:34:49.730] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2020-11-07 15:34:49.731] [jointLog] [info] iteration = 0 | max rel diff. = 102.38
+[2020-11-07 15:34:49.800] [jointLog] [info] iteration = 100 | max rel diff. = 0.10933
+[2020-11-07 15:34:49.869] [jointLog] [info] iteration = 200 | max rel diff. = 0.0545167
+[2020-11-07 15:34:49.939] [jointLog] [info] iteration = 300 | max rel diff. = 0.0378169
+[2020-11-07 15:34:50.008] [jointLog] [info] iteration = 400 | max rel diff. = 0.0278118
+[2020-11-07 15:34:50.077] [jointLog] [info] iteration = 500 | max rel diff. = 0.0220429
+[2020-11-07 15:34:50.146] [jointLog] [info] iteration = 600 | max rel diff. = 0.0186031
+[2020-11-07 15:34:50.215] [jointLog] [info] iteration = 700 | max rel diff. = 0.0156833
+[2020-11-07 15:34:50.285] [jointLog] [info] iteration = 800 | max rel diff. = 0.0136445
+[2020-11-07 15:34:50.354] [jointLog] [info] iteration = 900 | max rel diff. = 0.0126744
+[2020-11-07 15:34:50.423] [jointLog] [info] iteration = 1000 | max rel diff. = 0.0107643
+[2020-11-07 15:34:50.492] [jointLog] [info] iteration = 1100 | max rel diff. = 0.0102965
+[2020-11-07 15:34:50.516] [jointLog] [info] iteration = 1135 | max rel diff. = 0.00952932
+[2020-11-07 15:34:50.516] [jointLog] [info] finished optimizer

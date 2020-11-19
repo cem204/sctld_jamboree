@@ -1,0 +1,8 @@
+{
+    "salmon_version": "0.10.0",
+    "targets": "/nethome/bdy8/ofav_genome/ofav_gffread_for_salmon.fasta",
+    "libType": "SF",
+    "alignments": "/scratch/projects/transcriptomics/ben_young/SCTLD/host/ofav_align/Ofav_na_K60_na_D1_na/Ofav_na_K60_na_D1_na_Aligned.toTranscriptome.out.bam",
+    "output": "/scratch/projects/transcriptomics/ben_young/SCTLD/host/ofav_quant/Ofav_na_K60_na_D1_na_salmon",
+    "auxDir": "aux_info"
+}
